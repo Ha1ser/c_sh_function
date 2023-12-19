@@ -1,4 +1,7 @@
-﻿int[] ArrNums(int size, int from, int to){
+﻿// Напишите программу, которая перевернёт одномерный массив (первый элемент станет последним, второй – предпоследним и т.д.)
+
+
+int[] ArrNums(int size, int from, int to){
     int[] arr = new int[size];
 
     for (int i = 0; i < size; i++){
